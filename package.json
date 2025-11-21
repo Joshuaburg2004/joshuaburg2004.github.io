@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://joshuaburg2004.github.io/",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
