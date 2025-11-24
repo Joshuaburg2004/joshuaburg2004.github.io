@@ -1,0 +1,35 @@
+.Sidebar {
+  position: fixed;
+  top: 14vh; /* sits below your fixed header (10vh) */
+  left: 0;
+  width: 200px;
+  height: calc(100vh - 10vh);
+  background-color: #1f2937;
+  color: #ffffff;
+  padding-top: 16px;
+  box-sizing: border-box;
+  z-index: 5;
+}
+
+.Sidebar nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 8px;
+}
+
+.Sidebar nav li {
+  margin-bottom: 8px;
+}
+
+.Sidebar-link {
+  display: block;
+  color: #cbd5e1;
+  padding: 8px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.Sidebar-link:hover {
+  background: rgba(255,255,255,0.04);
+  color: #ffffff;
+}

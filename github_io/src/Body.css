@@ -1,12 +1,7 @@
-.App {
+.Body {
   text-align: center;
   background-color: #282c34;
   margin-top: 16vh; /* header is 10vh */
   margin-left: 200px; /* leave room for the sidebar */
   color: #ffffff;
 }
-
-.App-link {
-  color: #61dafb;
-}
-

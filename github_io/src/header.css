@@ -1,0 +1,21 @@
+.Header { 
+    background-color: #ffb222f6;
+    color: #000000;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    padding: 4px 0 15px 0; /* reduce top padding so text moves up */
+    display: flex;            /* use flexbox for vertical alignment */
+    align-items: flex-start;  /* align content to top of header */
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.App-logo {
+  height: 5vmin;
+    margin: 0;
+    padding: 0 10px;
+}
